@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To Do List App</title>
+
+	<link rel="stylesheet" href="list.css" />
+</head>
+<body>
+	
+	<header>
+		<center><h1>TO DO List</h1></center>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Add a new task....." />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="+" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<center><h2>Tasks</h2></center>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+
+	<script src="list.js"></script>
+</body>
+</html>
