@@ -136,7 +136,7 @@ main {
 }
 
 .task .actions .edit {
-	background-image: linear-gradient(to right, rgb(228, 113, 132), rgb(43, 128, 255));
+	color: rgb(179, 22, 168);
 }
 
 .task .actions .delete {
